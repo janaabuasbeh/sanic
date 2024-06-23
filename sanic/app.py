@@ -2541,11 +2541,6 @@ class Sanic(
     def print_refresh_coverage():
         for branch, hit in refresh_branch_coverage.items():
             print(f"{branch} was {'hit' if hit else 'not hit'}")
-    
-
-=======
-            self.shared_ctx.lock()
-        return self
 
     @property
     def inspector(self) -> Inspector:
