@@ -113,13 +113,7 @@ if OS_IS_WINDOWS:  # no cov
 ctx_type = TypeVar("ctx_type")
 config_type = TypeVar("config_type", bound=Config)
 
-
 unregister_branches = {"not_an_instance": False, "name_in_registry": False}
-
-refresh_branch_coverage = {"refresh_b1" : False, "refresh_b2" : False, "refresh_b3" : False, "refresh_b4" : False}
-purge_branch_coverage = {"purge_b1" : False, "purge_b2" : False}
-
-
 
 class Sanic(
     Generic[config_type, ctx_type],
