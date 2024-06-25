@@ -1131,7 +1131,7 @@ Coverage Improvement: 31%
 
 **Ayush**: Throughout the project, I wrote about the number of lines of code and the tool used in the Readme file. I also described the how we used the existing tool to get the values for the coverage. I worked on two functions which are *extract_style* and *eq* in which I performed the coverage instrumentation and also added tests to achieve a code coverage of 100% for both functions.
 
-**Jana**:
+**Jana**: After forking the repository, I ran the coverage tool to find the initial coverage results. Afterwards, I performed the coverage instrumentation of the functions *validate_file* and *unregister_app*, and added tests in their respective test files to increase their coverage to 100%. Finally, I reviewed my teammates' pull requests and merged one of them.
 
 **Medon**
 
