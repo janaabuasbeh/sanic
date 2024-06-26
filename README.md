@@ -1008,7 +1008,7 @@ There are three tests added which are *expected_file_test*, *non_existing_file_t
 *no_files_path_test*: This test is about calling *extract_style* with the paramater 'None' as the file. Then an assert is added to ensure the proper handling for the 'None' input which will check if there is an empty string. This hits the branch *no_maybe_path* since there is no valid path thus it returns an empty string.
 
 ```
-def test_initial_print_extract_style():
+def print_extract_style_test_initial():
     print("\nBranch coverage before: ")
     print_extract_style_coverage()
     print("\n")
@@ -1028,16 +1028,15 @@ def no_files_path_test():
     results = _extract_style(None, "nonexistent_page")
     assert results == "", f"Expected '',{results}"
 
-def test_final_print_extract_style():
+def print_extract_style_test_final():
     print("\nBranch coverage after: ")
     print_extract_style_coverage()
     print("\n")
-
 ```
 
 *New Coverage*
 
-The function test_final_print_extract_style() prints out the updated branch coverage, showing that all the branches were hit during the test execution.
+The function print_extract_style_test_final() prints out the updated branch coverage, showing that all the branches were hit during the test execution.
 
 ![alt text](Screenshots/Ayush/extract_style_coverage_after.png "instrumentation result")
 
