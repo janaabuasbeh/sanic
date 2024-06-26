@@ -1133,6 +1133,6 @@ Coverage Improvement: 31%
 
 **Jana**: After forking the repository, I ran the coverage tool to find the initial coverage results. Afterwards, I performed the coverage instrumentation of the functions *validate_file* and *unregister_app*, and added tests in their respective test files to increase their coverage to 100%. Finally, I reviewed my teammates' pull requests and merged one of them.
 
-**Medon**
+**Medon**: After forking the repository, I initially used the coverage tool to assess the code's coverage. Subsequently, I instrumented the ack function in app.py and the _poll_monitor function in manager.py to analyze their coverage. I identified the branches that were not covered by the existing tests and then developed additional tests to ensure that all branches of these functions were executed. In addition to the above tasks, I reviewed and merged pull requests from my teammates to ensure the project’s code quality and consistency.
 
 
