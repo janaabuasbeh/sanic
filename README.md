@@ -876,7 +876,7 @@ Coverage Improvement : *26%*
 
 *Old Coverage Results*
 
-The initial coverage of the function is **55%**
+The initial coverage of the function is **79%**
 
 ![alt text](Screenshots/Amir/Purge_coverage_initial_percentage.png "instrumentation result")
 
@@ -1127,7 +1127,7 @@ Coverage Improvement: 31%
 
 ## Statement of individual contributions
 
-**Amir**: 
+**Amir**: After forking the repository, I initially used the coverage tool to assess the code's coverage. Following this, I specifically instrumented the functions Refresh and Purge_tasks for coverage analysis and added tests to their respective files, achieving coverage rates of 97% and 100% respectively. Additionally, I reviewed and merged one of my teammates' pull requests during this process.
 
 **Ayush**: Throughout the project, I wrote about the number of lines of code and the tool used in the Readme file. I also described the how we used the existing tool to get the values for the coverage. I worked on two functions which are *extract_style* and *eq* in which I performed the coverage instrumentation and also added tests to achieve a code coverage of 100% for both functions.
 
