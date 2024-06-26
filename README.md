@@ -132,7 +132,7 @@ monitor_branch_coverage = {
 
 The first function I chose to improve the coverage of is the unregister_app(cls,app) function in app.py. This function unregisters a “Sanic” instance from the class registry. 
 
-The dictionary unregister_branches is used to instrument the function and track which of the two if branches was executed. The result output by the instrumentation shows that *ack_has_multiplexer* branch is not hit.
+The dictionary unregister_branches is used to instrument the function and track which of the two if branches was executed. The result output by the instrumentation shows that *not_an_instance* branch is not hit, and the *name_in_registry* branch is always hit.
 
 *Intrumented code*
 
