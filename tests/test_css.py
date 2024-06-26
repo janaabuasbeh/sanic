@@ -1,7 +1,7 @@
 from pathlib import Path
 from sanic.pages.css import _extract_style, print_extract_style_coverage
 
-def print_extract_style_test_initial():
+def test_initial_print_extract_style():
     print("\nBranch coverage before: ")
     print_extract_style_coverage()
     print("\n")
@@ -21,13 +21,13 @@ def no_files_path_test():
     results = _extract_style(None, "nonexistent_page")
     assert results == "", f"Expected '',{results}"
 
-def print_extract_style_test_final():
+def test_final_print_extract_style():
     print("\nBranch coverage after: ")
     print_extract_style_coverage()
     print("\n")
 
-print_extract_style_test_initial()
+test_initial_print_extract_style()
 expected_file_path_test()
 non_existing_file_path_test()
 no_files_path_test()
-print_extract_style_test_final()
+test_final_print_extract_style()
