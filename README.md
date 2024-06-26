@@ -23,7 +23,7 @@ Programming language: Python
 
 The existing tool that was used for the coverage measurement is Coverage.py which was provided in the gitbook. To execute the tool, we implemented “pip install coverage”. Based on that we either used the command “python -m coverage run -m pytest” for windows and “coverage run -m pytest” for mac which ran the coverage. We also added the modules required to run it such as “pip install sanic” and other required modules. Based on that, “python -m coverage report” was used to generate the report and it was exported as an html via “python -m coverage html”.
 
-![alt text](Screenshots/General/sanic_initial_coverage "instrumentation result")
+![alt text](Screenshots/General/sanic_initial_coverage.png "instrumentation result")
 
 
 
@@ -1118,11 +1118,11 @@ Coverage Improvement: 31%
 
 Old Coverage Result:
 
-![alt text](Screenshots/General/sanic_initial_coverage "instrumentation result")
+![alt text](Screenshots/General/sanic_initial_coverage.png "instrumentation result")
 
 New Coverage Result:
 
-![alt text](Screenshots/General/sanic_coverage_after "instrumentation result")
+![alt text](Screenshots/General/sanic_coverage_after.png "instrumentation result")
 
 
 ## Statement of individual contributions
