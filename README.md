@@ -9,11 +9,11 @@ URL: https://github.com/sanic-org/sanic
 
 Number of lines of code and the tool used to count it: 
 
-The tool that we used is Lizard which was obtained from the gitbook. The tool “pip install lizard” was used to download Lizard and then “python lizard.py” was executed. The number of lines of code is 50156 nLOC which can be represented as 50.156 KLOC.
+The tool that we used is Lizard which was obtained from the gitbook. The tool “*pip install lizard*” was used to download Lizard and then “*python lizard.py*” was executed. The number of lines of code is **50156 nLOC** which can be represented as **50.156 KLOC**.
 
 
 
-Programming language: Python 
+Programming language: **Python** 
 
 
 
@@ -21,7 +21,7 @@ Programming language: Python
 
 ### Existing tool
 
-The existing tool that was used for the coverage measurement is Coverage.py which was provided in the gitbook. To execute the tool, we implemented “pip install coverage”. Based on that we either used the command “python -m coverage run -m pytest” for windows and “coverage run -m pytest” for mac which ran the coverage. We also added the modules required to run it such as “pip install sanic” and other required modules. Based on that, “python -m coverage report” was used to generate the report and it was exported as an html via “python -m coverage html”.
+The existing tool that was used for the coverage measurement is Coverage.py which was provided in the gitbook. To execute the tool, we implemented “*pip install coverage*”. Based on that we either used the command “*python -m coverage run -m pytest*” for **windows** or “*coverage run -m pytest*” for **mac** which ran the coverage. We also added the modules required to run it such as “*pip install sanic*” and other required modules. Based on that, “python -m coverage report” for **windows** or "*coverage report*" for **mac** was used to generate the report in the terminal. It was exported as an html file via “*python -m coverage html*” for **windows** or "*coverage html*" for **mac**.
 
 ![alt text](Screenshots/General/sanic_initial_coverage.png "instrumentation result")
 
