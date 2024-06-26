@@ -23,9 +23,7 @@ Programming language: Python
 
 The existing tool that was used for the coverage measurement is Coverage.py which was provided in the gitbook. To execute the tool, we implemented “pip install coverage”. Based on that we either used the command “python -m coverage run -m pytest” for windows and “coverage run -m pytest” for mac which ran the coverage. We also added the modules required to run it such as “pip install sanic” and other required modules. Based on that, “python -m coverage report” was used to generate the report and it was exported as an html via “python -m coverage html”.
 
-
-
-
+![alt text](Screenshots/General/sanic_initial_coverage "instrumentation result")
 
 
 
@@ -1118,17 +1116,20 @@ Coverage Improvement: 31%
 
 ### Overall
 
-<Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
+Old Coverage Result:
 
+![alt text](Screenshots/General/sanic_initial_coverage "instrumentation result")
 
-<Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
+New Coverage Result:
+
+![alt text](Screenshots/General/sanic_coverage_after "instrumentation result")
 
 
 ## Statement of individual contributions
 
 **Amir**: After forking the repository, I initially used the coverage tool to assess the code's coverage. Following this, I specifically instrumented the functions Refresh and Purge_tasks for coverage analysis and added tests to their respective files, achieving coverage rates of 97% and 100% respectively. Additionally, I reviewed and merged one of my teammates' pull requests during this process.
 
-**Ayush**: Throughout the project, I wrote about the number of lines of code and the tool used in the Readme file. I also described the how we used the existing tool to get the values for the coverage. I worked on two functions which are *extract_style* and *eq* in which I performed the coverage instrumentation and also added tests to achieve a code coverage of 100% for both functions.
+**Ayush**: I found the sanic repository.I wrote about the number of lines of code and the tool used in the Readme file. I also described the how we used the existing tool to get the values for the coverage. I worked on two functions which are *extract_style* and *eq* in which I performed the coverage instrumentation and also added tests to achieve a code coverage of 100% for both functions. I also reviewed and merged my teammates pull request.
 
 **Jana**: After forking the repository, I ran the coverage tool to find the initial coverage results. Afterwards, I performed the coverage instrumentation of the functions *validate_file* and *unregister_app*, and added tests in their respective test files to increase their coverage to 100%. Finally, I reviewed my teammates' pull requests and merged one of them.
 
