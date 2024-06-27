@@ -113,7 +113,6 @@ if OS_IS_WINDOWS:  # no cov
 ctx_type = TypeVar("ctx_type")
 config_type = TypeVar("config_type", bound=Config)
 
-
 ack_branch_coverage = {
     "ack_has_multiplexer" : False,
     "ack_no_multiplexer" : False
